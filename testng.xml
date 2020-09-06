@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet Store API Test Suite">
+    <test verbose="2" preserve-order="true" name="PetStoreAPI">
+
+        <classes>
+            <class name="files.petStoreApiTest"  >
+                <methods>
+                    <include name="petStoreRegister" >
+                    </include>
+
+                    <include name="login">
+
+                    </include>
+
+                    <include name="logout">
+
+                    </include>
+                    <include name="addPet">
+
+                    </include>
+                    <include name="getPet">
+
+                    </include>
+                    <include name="uploadPetImage">
+
+                    </include>
+
+                    <include name="deletePet">
+
+                    </include>
+                    <include name="listAlldogs">
+
+                    </include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

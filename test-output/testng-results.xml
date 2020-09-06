@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Pet Store API Test Suite" duration-ms="16088" started-at="2020-09-06T08:56:07 IST" finished-at="2020-09-06T08:56:23 IST">
+    <groups>
+    </groups>
+    <test name="PetStoreAPI" duration-ms="16088" started-at="2020-09-06T08:56:07 IST" finished-at="2020-09-06T08:56:23 IST">
+      <class name="files.petStoreApiTest">
+        <test-method status="PASS" signature="petStoreRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:files.petStoreApiTest@29ee9faa]" name="petStoreRegister" duration-ms="3247" started-at="2020-09-06T08:56:07 IST" data-provider="userData" finished-at="2020-09-06T08:56:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester10@qa.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreRegister -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:files.petStoreApiTest@29ee9faa]" name="login" duration-ms="1722" started-at="2020-09-06T08:56:10 IST" data-provider="userData" finished-at="2020-09-06T08:56:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tester10@qa.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:files.petStoreApiTest@29ee9faa]" name="logout" duration-ms="1683" started-at="2020-09-06T08:56:12 IST" finished-at="2020-09-06T08:56:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="addPet(java.lang.String, java.lang.String)[pri:3, instance:files.petStoreApiTest@29ee9faa]" name="addPet" duration-ms="1687" started-at="2020-09-06T08:56:14 IST" data-provider="petData" finished-at="2020-09-06T08:56:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chihuahua 2-year-old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPet -->
+        <test-method status="PASS" signature="getPet(java.lang.String, java.lang.String)[pri:4, instance:files.petStoreApiTest@29ee9faa]" name="getPet" duration-ms="2251" started-at="2020-09-06T08:56:16 IST" data-provider="petData" finished-at="2020-09-06T08:56:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chihuahua 2-year-old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPet -->
+        <test-method status="PASS" signature="uploadPetImage(java.lang.String, java.lang.String)[pri:5, instance:files.petStoreApiTest@29ee9faa]" name="uploadPetImage" duration-ms="1758" started-at="2020-09-06T08:56:18 IST" data-provider="petData" finished-at="2020-09-06T08:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chihuahua 2-year-old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadPetImage -->
+        <test-method status="PASS" signature="deletePet(java.lang.String, java.lang.String)[pri:6, instance:files.petStoreApiTest@29ee9faa]" name="deletePet" duration-ms="1643" started-at="2020-09-06T08:56:20 IST" data-provider="petData" finished-at="2020-09-06T08:56:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chihuahua 2-year-old]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePet -->
+        <test-method status="PASS" signature="listAlldogs()[pri:7, instance:files.petStoreApiTest@29ee9faa]" name="listAlldogs" duration-ms="2044" started-at="2020-09-06T08:56:21 IST" finished-at="2020-09-06T08:56:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAlldogs -->
+      </class> <!-- files.petStoreApiTest -->
+    </test> <!-- PetStoreAPI -->
+  </suite> <!-- Pet Store API Test Suite -->
+</testng-results>
